@@ -1,0 +1,15 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"FuzzyFilePath",
+		"GitGutter",
+		"Package Control",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"Theme - Soda"
+	]
+}
