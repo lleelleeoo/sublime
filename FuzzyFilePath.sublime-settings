@@ -1,0 +1,32 @@
+{
+    "scopes": [
+        {
+            // js: require()
+            "scope": "\\.js\\s",                    // 1. ignore if scope at cursor does not match expression (super+alt+p)
+            "prefix": ["require", "define"],        // 2. trigger only if: require(<cursor>, define([<cursor>
+            // if 1 & 2 are true:
+            "auto": true,
+            "relative": true,                       // insert absolute
+            "base_directory": false,                // insert absolute from the set base directory (above)
+            "extensions": ["js", "html", "scss", "css", "handlebars"],   // show only .js, .html and .scss files
+            "replace_on_insert": [
+                ["([^.])\\/index$", "\\1"],         // nodejs will load index.js by default => also remove index
+                ["^\\/bower_components\\/", ""]     // remove bower_components, since our build tool resolves this path automatically
+            ]
+        },
+        {
+            // es6 import from/import "*"
+            "scope": "string\\.js\\s",
+
+            "auto": true,
+            "relative": true,
+            "base_directory": false,
+            "prefix": ["from", "import"],
+            "extensions": ["js", "html", "scss", "css", "handlebars"],
+            "replace_on_insert": [
+                ["([^.])\\/index$", "\\1"],
+                ["^\\/bower_components\\/", ""]
+            ]
+        },
+    ]
+}
