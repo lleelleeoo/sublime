@@ -12,6 +12,7 @@
 		"Package Control",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
-		"Theme - Soda"
+		"Theme - Soda",
+		"TodoReview"
 	]
 }
