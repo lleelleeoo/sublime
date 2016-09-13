@@ -1,7 +1,7 @@
 {
 	"always_show_minimap_viewport": true,
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai Light (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
 	"drag_text": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "all",
@@ -21,7 +21,7 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"soda_classic_tabs": true,
-	"theme": "Soda Light 3.sublime-theme",
+	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
