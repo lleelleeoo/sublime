@@ -15,6 +15,7 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-pep8",
 		"Theme - Soda",
 		"TodoReview"
 	]
